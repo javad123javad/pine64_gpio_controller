@@ -1,5 +1,5 @@
 # pine64_gpio_controller
-This simple Kernel module allows you to directly control PINE64 gpio from /dev directory, rather than using sysfs or other methods.
+This simple Kernel module allows you to directly control PINE64 gpio from `/dev` directory, rather than using `sysfs` or other methods.
 For example, a motor power button will be regisered as `/dev/pwr_btn@0` and it can be easily handled by standard userspace syscalls (open, read, write...)
 
 ## Build
